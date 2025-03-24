@@ -1,28 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <link href="style.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beautiful cats</title>
 </head>
-<header><h1><b>Cats&Dogs</b></h1>
- <img src="logo.jpg" width="70" height="70">
+<header><hh1 style="text-align: center;"><b>Cats&Dogs</b></h1>
+ <img src="logos.jpg" width="70" height="75">
 </header>
-<a href="index.html">Katės</a>
-<a href="antras.html">Šunys</a>
+<a href="index.html">Cats</a>
+<a href="antras.html">Dogs</a>
 <body>
-    <h1>Cats</h1>
-    <img src="catsai.jpg" width="750" height="250"/>
-    <h2>Trojkė, Senė ir Pupytė </h2>
-   <p>Meet three cats of our home! Two beautiful white deaf cats and one kitten. Senė is 8 year old deaf cat. She has daughter Trojkė who is also deaf and has three legs. They are old residents of our home. We have addition to our family, a kitten named Pupytė.</p>
-   <img src="sene.jpg" width="150" height="250"/>
+    <h1 style="text-align:center">Cats</h1>
+    <div style="text-align: center";>
+    <img src="catsai.jpg" width="750" height="250";/>
+    </div>
 
-   <b> Rate cat!</b><input type="range" min="1" max="10"/>
-   <img src="pupe.jpg" width="350" height="250">
-   <b> Rate cat!</b><input type="range" min="1" max="10"/>
-   <img src="bigels.jpg" width="150" height="250"/>
-   <b> Rate cat!</b><input type="range" min="1" max="10"/>
-
+    <h2 style="text-align:center"> Trojkė ,Senė ir Pupytė </h2>
+   <p style="text-align:center">Meet three cats of our home! Two beautiful white deaf cats and one kitten. Senė is 8 year old deaf cat. She has daughter Trojkė who is also deaf and has three legs. They are old residents of our home. We have addition to our family, a kitten named Pupytė.</p>
+   <style>
+      .container {
+          display: flex;
+          justify-content: center; /* Aligns images in one row */
+          align-items: center; /* Ensures everything is aligned */
+          gap: 20px; /* Adds spacing between items */
+          margin-top: 20px;
+      }
+      .item {
+          display: flex;
+          flex-direction: column; /* Stacks text and input below each image */
+          align-items: center; /* Centers the content */
+          text-align: center;
+      }
+  </style>
+  <div class="container">
+      <div class="item">
+          <img src="sene.jpg" width="150" height="250" alt="Cat 1">
+          <br><b>Rate cat!</b>
+          <input type="range" min="1" max="10">
+      </div>
+      <div class="item">
+          <img src="pupe.jpg" width="350" height="250" alt="Cat 2">
+          <br><b>Rate cat!</b>
+          <input type="range" min="1" max="10">
+      </div>
+      <div class="item">
+          <img src="bigels.jpg" width="150" height="250" alt="Cat 3">
+          <br><b>Rate cat!</b>
+          <input type="range" min="1" max="10">
+      </div>
+  </div>
+  <button>Results</button>
+  <h3> More information about cats</h3>
       <ul>
     <li> <a target="_blank" href="https://en.wikipedia.org/wiki/Congenital_sensorineural_deafness_in_cats">Senė Baltė</a> </li>
     <li><a target="_blank" href="https://en.wikipedia.org/wiki/Congenital_sensorineural_deafness_in_cats">Trojkė Bagels</a></li>
@@ -53,7 +83,7 @@ Password <input type="password"/>
 <br>
 <hr>
 <footer> 
-    Contact us 
+   Contact us
     <img src="Instagram_logo_2022.svg.png" width="20" height="20"/>
     <img src="Facebook_f_logo_(2021).svg.png" width="20" height="20"/>
     <img src="phone.jpg" width="20" height="20"/>
