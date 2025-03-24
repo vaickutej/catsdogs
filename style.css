@@ -1,0 +1,57 @@
+header
+{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 40px;
+color: midnightblue;
+background-color: rgb(209, 124, 129);
+border-style:groove;
+border-color:midnightblue;
+border-radius: 5%;
+box-shadow: 10px 5px 5px rgb(56, 14, 124);}
+
+header:hover {
+    font-size: 40px;
+    color:rgb(209, 124, 129);
+    background-color: midnightblue;
+    border-style:dotted;
+    border-color: rgb(209, 124, 129);
+
+ 
+}
+a {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+color: rgb(105, 40, 53);}
+a:hover {color:darkcyan}
+
+h1 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+color: midnightblue;
+border-style: dotted;
+border-color: rgb(66, 25, 38);
+background-color: rgb(192, 139, 126);
+border-radius: 10%}
+h1:hover {
+    font-size: 65px;
+    cursor: zoom-in;
+
+}
+body {background-color: rgb(240, 216, 186);}
+h2{
+    font-size: 10px;
+    border: 5px dotted rgb(88, 23, 26);
+    border-radius: 50%;
+
+    margin: 20px;
+    padding: 20px;
+    background: rgb(228, 116, 150);
+
+}
+
+h2:hover {border: 5px dotted rgb(5, 1, 7);
+    border-radius: 50%;
+ font-size: 45px;
+ cursor: zoom-in;
+    margin: 40px;
+    padding: 40px;
+    background: rgb(118, 164, 224);
+transition: all 3s;}
