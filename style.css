@@ -55,3 +55,16 @@ h2:hover {border: 5px dotted rgb(5, 1, 7);
     padding: 40px;
     background: rgb(118, 164, 224);
 transition: all 3s;}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media (min-width: 600px) {
+    
+}
+    .item {
+        width: auto; 
+    }
